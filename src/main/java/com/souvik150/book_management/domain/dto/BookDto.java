@@ -1,4 +1,4 @@
-package com.souvik150.book_management.domain;
+package com.souvik150.book_management.domain.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -9,8 +9,8 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class Author {
-    private Long id;
-    private String name;
-    private Integer age;
+public class BookDto {
+    private String isbn;
+    private String title;
+    private AuthorDto author;
 }
