@@ -1,9 +1,10 @@
 ## Book Management System
 
 Used technologies:
-- Java 17
+- Java 22
 - Spring Boot
 - Spring Data JPA
+- Hibernate
 - JUnit
 - Mockito
 - Lombok
